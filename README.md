@@ -24,5 +24,5 @@ The content of the QR Code: eg: https://github.com/thewally/qr-generator
 `./qr-generator "My QR Content: https://github.com/thewally/qr-generator" -o output-qr.png`
 
 ### QR code with logo
-`./qr-generator "My QR Content: https://github.com/thewally/qr-generator" -o output-qr.png -l logo.png`
+`./qr-generator "My QR Content: https://github.com/thewally/qr-generator" -o output-qr.png -l -lf logo.png`
 
