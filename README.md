@@ -1,7 +1,6 @@
 # QR Generator
 
 ## Usage
-
 `qr-generator [-h] [-o OUTPUTFILENAME] [-qc QRCOLOR] [-qb QRBACKGROUNDCOLOR] [-qs QRSIZE] [-l LOGOADDITION] [-ls LOGOSIZERATIO] [-lc] content`
 
 ### Mandatory argument
@@ -24,8 +23,8 @@
 
 ## How to use (Linux/Mac)
 
-1. Download latest release from: https://github.com/thewally/qr-generator/tree/master/releases/linuxOrMac
-2. Save file
+1. Download latest release from: https://github.com/thewally/qr-generator/releases
+2. Download file
 3. Run command `./qr-generator.v1.x.x [CONTENT] [OPTIONS]`
 
 ## Examples
