@@ -24,7 +24,7 @@
 
 ## How to use (Linux/Mac)
 
-1. Download latest release from: https://github.com/thewally/qr-generator/tree/master/releases
+1. Download latest release from: https://github.com/thewally/qr-generator/tree/master/releases/linuxOrMac
 2. Save file
 3. Run command `./qr-generator.v1.x.x [CONTENT] [OPTIONS]`
 
