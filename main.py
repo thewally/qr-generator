@@ -6,8 +6,8 @@ from PIL import Image, ImageDraw
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-o', '--outputFilename', default='output.png', required=False,
-                        help="Output filename, eg: output.png")
+    parser.add_argument('-o', '--outputFilename', default='output_with_logo.png', required=False,
+                        help="Output filename, eg: output_with_logo.png")
     parser.add_argument('-qc', '--qrColor', default='BLACK', required=False,
                         help="Color of the generated qr-code. eg: #314a4e")
     parser.add_argument('-qb', '--qrBackgroundColor', default='WHITE', required=False,

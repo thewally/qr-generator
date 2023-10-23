@@ -32,6 +32,11 @@
 
 ### QR code without logo
 `./qr-generator "My QR Content: https://github.com/thewally/qr-generator" -o output-qr.png`
+#### Result:
+![Output without Logo](examples/output_without_logo.png)
+
 
 ### QR code with logo
 `./qr-generator "My QR Content: https://github.com/thewally/qr-generator" -o output-qr.png -l -lf logo.png`
+#### Result:
+![Output with Logo](examples/output_with_logo.png)
