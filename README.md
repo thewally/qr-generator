@@ -1,11 +1,11 @@
 # QR Generator
 ## Usage
-qr-generator [-h] [-o OUTPUTFILENAME] [-qc QRCOLOR] [-qb QRBACKGROUNDCOLOR] [-qs QRSIZE] [-l LOGOADDITION] [-ls LOGOSIZERATIO] [-lc] content
+`qr-generator [-h] [-o OUTPUTFILENAME] [-qc QRCOLOR] [-qb QRBACKGROUNDCOLOR] [-qs QRSIZE] [-l LOGOADDITION] [-ls LOGOSIZERATIO] [-lc] content`
 
-## Mandatory argument
+### Mandatory argument
 The content of the QR Code: eg: https://github.com/thewally/qr-generator
 
-## Options
+### Options
 
 | Option                                                               | Description                                                                    |     
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------|
@@ -16,6 +16,7 @@ The content of the QR Code: eg: https://github.com/thewally/qr-generator
 | `-qs [QRSIZE]`, `--qrSize [QRSIZE]`                                  | qr-code size in pixels, eg: '3000'                                             |
 | `-l [LOGOADDITION]`, `--logoAddition [LOGOADDITION]`                 | filename of logo for addition, eg: logo.png                                    |
 | `-ls [LOGOSIZERATIO]`, `--logoSizeRatio [LOGOSIZERATIO]`             | size ratio of logo compared to qr-code, eg: '0.25' (for 25 percent of qr code) |
+
 
 ## Examples
 
