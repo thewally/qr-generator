@@ -15,7 +15,7 @@ def main():
     parser.add_argument('-qs', '--qrSize', type=int, default=3000, required=False,
                         help="qr-code size in pixels, eg: '3000'")
     parser.add_argument('-l', '--logoAddition', default='logo.png', required=False,
-                        help="filename of log for addition, eg: logo.png")
+                        help="filename of logo for addition, eg: logo.png")
     parser.add_argument('-ls', '--logoSizeRatio', type=float, default=0.25, required=False,
                         help="size ratio of logo compared to qr-code, eg: '0.25' (for 25 percent of qr code)")
     parser.add_argument('-lc', '--logoCircleShape', action='store_true', required=False,
